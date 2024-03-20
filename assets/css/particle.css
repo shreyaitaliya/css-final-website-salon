@@ -1,0 +1,27 @@
+
+.foot-layout{
+    position: relative;
+    z-index: -1;
+    
+}
+#snow i{
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    animation: snowfall 5s linear infinite;
+    z-index: 9999999;
+    
+   
+}
+
+
+@keyframes snowfall {
+    0% {
+        transform: translate(-10vw, -50vh);
+    }
+
+    100% {
+        transform: translate(10vw, 50vh);
+    }
+}
